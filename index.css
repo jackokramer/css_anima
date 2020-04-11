@@ -1,0 +1,11 @@
+.heading {
+    color: aqua;
+    font-size: 15px;
+    transition: all .5s; /* USING ALL LIMITS THE SIZE OF THE PROPERTY*/
+}
+
+.heading:hover{ /* Whatever properties are needed to be activated*/
+    color: maroon;
+    letter-spacing: 10px;
+    font-size: 30px;
+}
