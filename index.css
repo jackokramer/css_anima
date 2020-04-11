@@ -1,11 +1,61 @@
 .heading {
-    color: aqua;
+    color: purple;
     font-size: 15px;
-    transition: all .5s; /* USING ALL LIMITS THE SIZE OF THE PROPERTY*/
+     /* USING ALL LIMITS THE SIZE OF THE PROPERTY*/
+    /* with transition-proprty you need to include duratiion*/
+    transition: all 1s ease-in 1s;
+    /* Order is  property-duration timing and delay*/
 }
 
 .heading:hover{ /* Whatever properties are needed to be activated*/
-    color: maroon;
-    letter-spacing: 10px;
-    font-size: 30px;
+    color: green;
+    /*letter-spacing: 5px;*/
+    font-size: 40px;
+}
+
+title{
+    color: black;
+}
+
+title:hover{
+    
+}
+
+.menu {
+    margin: 0;
+    width: 100%;
+    padding: 5px;
+    background: #bdceff;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    border-bottom: 3px solid #005aad;
+    flex-wrap: wrap;
+}
+
+.menu-link{
+    text-emphasis: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: Roboto, arial;
+    color: slategray;
+}
+
+.menu-item{
+    height: 3em;
+    align-self: center;
+    margin: 5px;
+}
+
+.text{
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.img{
+    width: 100%;
+    border-radius: 2em;
 }
