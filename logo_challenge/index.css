@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    background: #242423;
+}
+
+.box{
+    height: 30px;
+    width: 30px;
+    animation: moving 2s ease-in-out 1s 4 normal both;
+}
+
+.box-red{
+    background: #ff4d4d;
+    margin: 0;
+}
+
+.box-blue{
+    background: #738cff;
+    margin: 0;
+}
+
+.box-green{
+    background: #46ff36;
+    margin: 0;
+}
+
+.box-orange{
+    background: #ffaf24;
+    margin: 0;
+}
+
+.logo{
+
+}
+
+h2{
+    color: white;
+}
+
+p{
+    color: white;
+}
+@keyframes moving{
+    to{transform: translate(50vw, 50vh) scaleX(15) skewY(60deg);}
+}
+/*Changing the skew can alter how it appears totally*/
